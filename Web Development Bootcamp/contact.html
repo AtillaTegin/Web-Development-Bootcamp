@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Website</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Website</h1>
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="https://github.com/AtillaTegin">Github</a>
+            <a href="services.html">Services</a>
+            <a class="active" href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <h2>Contact Us</h2>
+            <p>Get in touch with us through the following form:</p>
+            <form action="submit.php" method="POST" class="mail-part">
+                
+                <input type="text" id="name" name="name" placeholder="Enter your full name..." required><br>
+
+                <input type="email" id="email" name="email" placeholder="Enter your email address..." required><br>
+
+                <textarea id="message" name="message" rows="4" placeholder="Type a message..." required></textarea><br>
+
+                <button type="submit" class="submit-button">Submit</button>
+            </form>
+        </article>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Atilla's webpage. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
+
