@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Website</h1>
+        <nav class="navbar">
+            <a class="active" href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">
+                Services
+            </a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <div class="profile-section">
+                <div class="background-bear">
+                    <img src="ayi.jpg" alt="" class="profile-pic">
+                </div>
+                <div class="profile-details">
+                    <h3 class="info">Atilla Sharifli</h3>
+                    <h4 class="info">
+                        <li>Web Development</li>
+                        <li>Cooking</li>
+                        <li>Photographing</li>
+                    </h4>
+                </div>
+            </div>
+        </section>
+        <article>
+            <h2>Contact Us</h2>
+            <p>Get in touch with us through the following form:</p>
+            <form action="submit.php" method="POST" class="mail-part">
+                
+                <input type="text" id="name" name="name" placeholder="Enter your full name..." required><br>
+
+                <input type="email" id="email" name="email" placeholder="Enter your email address..." required><br>
+
+                <textarea id="message" name="message" rows="4" placeholder="Type a message..." required></textarea><br>
+
+                <button type="submit" class="submit-button">Submit</button>
+            </form>
+        </article>
+        
+        <section id="embedded-website">
+            <iframe src="https://www.ardaninmutfagi.com" width="100%" height="500"></iframe>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Atilla's webpage. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
+
