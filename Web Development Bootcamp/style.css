@@ -21,15 +21,17 @@ body {
 .profile-pic {
     max-width: 100px;
     border-radius: 33%;
-}
-
-.background-bear {
     background-color: #333;
     width: 100px;
     height: 100px;
     padding: 7px;
-    border-radius: 33%;
     margin: 15px;
+}
+
+.background-bear {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .profile-section {
@@ -41,6 +43,26 @@ body {
 .profile-details {
     display: flex;
     flex-direction: column;
+}
+
+table, td {
+    border: 4px inset black;
+    margin: 10px;
+}
+
+td {
+    padding: 5px 15px;
+    cursor: default;
+    background-color: antiquewhite;
+    &:hover {
+        background-color: transparent;
+        color: #fff;
+    }
+}
+
+.not-hover:hover {
+    background-color: antiquewhite;
+    color: black;
 }
 
 .info {
@@ -97,7 +119,7 @@ main {
     float: right;
     width: 100%;
     background-color: rgb(48, 45, 45);
-    padding-top: 131px 
+    padding-top: 134px; 
 }
 
 .mail-part {
